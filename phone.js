@@ -39,7 +39,7 @@ phone.forEach(item => {
     const phoneconten = document.createElement('div');
     phoneconten.classList=`card bg-base-100 shadow-xl`;
     phoneconten.innerHTML= `
-        <figure class="">
+        <figure class="p-8">
                   <img
                     src="${item.image}"
                     alt="Shoes" />
